@@ -1,0 +1,172 @@
+.navbar
+{
+    background-color: white;
+    padding-top: 1pt;
+    padding-bottom: 1pt;
+}
+
+.container
+{
+    position:relative;
+    top: 40pt;
+}
+
+.box {
+    min-height: 70px;
+    padding-top: 5%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 5%;
+    margin: 5px;
+    font-weight: 100;
+    color: grey;
+    background-color: white;
+  }
+
+.box1
+{
+    position: relative;
+    left: -10%;
+    height: fit-content;
+}
+.box2
+{
+    position: relative;
+    right: 5%;
+    padding-top: 7%;
+    height: fit-content; 
+    width: fit-content;
+    
+}
+.box3
+{
+    position: relative;
+    right: 5%;
+    padding-top: 7%;
+    height: fit-content; 
+    width: fit-content;
+}
+h1
+{
+    color:rgb(12, 173, 166);
+}
+body
+{
+    background-color: rgb(240, 238, 238);
+}
+
+.main-content
+{
+    float:right;
+}
+footer
+{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 8pt;
+    background-color:rgb(102, 102, 102);
+    height: 7%;
+    border-top-style: solid;
+    border-top-width: thick;
+    border-top-color: turquoise;
+    padding-top: 0.75%;
+}
+h2
+{
+    color: white;
+}
+h6
+{
+    color: black;
+}
+.badge
+{
+    background-color: rgb(12, 173, 166);
+    position:  relative;
+    left: 100px;
+}
+.comparision-image_title
+{
+    color: rgb(12, 173, 166);
+    text-align: center;
+}
+.comparision-image
+{
+    padding-bottom: 10%;
+}
+table
+{
+    border-collapse: collapse;
+    width: 100%
+}
+tr:nth-child(even) 
+{
+    background-color: #f2f2f2;
+}
+td:nth-child(2)
+{
+    text-align: left;
+}
+td:nth-child(4)
+{
+    text-align: left;
+}
+td:nth-child(5)
+{
+    text-align: left;
+}   
+th
+{
+    text-align: left;
+    padding: 8px;
+    color: black;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+tr
+{
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: grey;
+}
+td 
+{
+    text-align: right;
+    padding: 8px;
+    color: black;
+  }
+  .visualization-highlight
+  {
+      border-style: solid;
+      border-width: thin;
+      border-color: rgb(12, 173, 166);
+  }
+  .dropdown > a:hover
+  {
+    background-color: rgb(240, 238, 238);
+  }
+  .dropdown > a:focus
+  {
+      background-color: rgb(240, 238, 238);
+  }
+  .nav-item > a:hover
+  {
+    background-color: rgb(240, 238, 238);
+  }
+  .comparision-sml-image_divider
+  {
+      width: 0%;
+  }
+  @media(max-width: 600px)
+  {
+      .myHeading{
+          font-size: 20pt;
+          font-weight: bold;
+      }
+      .comparision-sml-image_divider{
+          width: 100%;
+      }
+  }
