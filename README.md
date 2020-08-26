@@ -1,7 +1,7 @@
 # Latitude Dashboard
-The website consits of 7 webpages:
+The website consits of 7 webpages created using HTML and CSS:
 
-1. Landing Page: which contains the website overview and links to the four visualiation pages
+1. Landing Page: which contains the website overview and links to the four visualization pages
 2. Four Visualization pages each containing: 
 
    1. A descriptive title and heading tag.
@@ -10,6 +10,6 @@ The website consits of 7 webpages:
 3. Comparison page which has been been created using the bootstrap grid gives a comparison between the four visualizations
 4. A Data page which gives the data used for creating the visualizations in a responsive table 
 
-Link to the website: 
+Link to the website: https://vaishali91tanwar.github.io/Web-Design-Challenge/
    
  
